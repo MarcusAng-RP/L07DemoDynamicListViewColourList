@@ -30,10 +30,24 @@
 
         <Button
             android:id="@+id/buttonAdditem"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/add_new_colour" />
+
+        <Button
+            android:id="@+id/buttonRemoveItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="REMOVE A COLOUR" />
+
+        <Button
+            android:id="@+id/buttonUpdateItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="UPDATE A COLOUR" />
 
     </LinearLayout>
 
